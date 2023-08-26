@@ -46,7 +46,45 @@ a.sidebar-item svg {
 }
 
 .header {
-    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 2rem;
+}
+
+.top-bar {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.top-bar svg {
+    width: 1.2rem;
+}
+
+.search-box {
+    display: flex;
+    gap: 1rem;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.search-box input {
+    flex: 1;
+    background-color: #E2E8F0;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+}
+
+.account-box {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.account-box img {
+    width: 2.5rem;
 }
 
 .main-content {
