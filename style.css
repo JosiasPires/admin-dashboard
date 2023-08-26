@@ -87,6 +87,41 @@ a.sidebar-item svg {
     width: 2.5rem;
 }
 
+.action-bar {
+    display: flex;
+    align-items: center;
+}
+
+.welcome-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+}
+
+.welcome-box img {
+    width: 3.5rem;
+}
+
+.welcome-text {
+    font-weight: bold;
+}
+
+.actions-box {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.actions-box button {
+    cursor: pointer;
+    padding: 0.4rem 1.1rem;
+    background-color: #1992D4;
+    border-radius: 16px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
 .main-content {
     background-color: green;
 }
