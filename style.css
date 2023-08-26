@@ -48,13 +48,15 @@ a.sidebar-item svg {
 .header {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding: 0 2rem;
+    padding: 0 3rem;
+    font-weight: bold;
 }
 
 .top-bar {
     display: flex;
     gap: 4rem;
     align-items: center;
+    padding: 0 16px;
 }
 
 .top-bar svg {
@@ -80,7 +82,6 @@ a.sidebar-item svg {
     display: flex;
     gap: 1rem;
     align-items: center;
-    padding: 0 3rem;
 }
 
 .account-box img {
@@ -99,12 +100,12 @@ a.sidebar-item svg {
     flex: 1;
 }
 
-.welcome-box img {
-    width: 3.5rem;
+.welcome-text {
+    line-height: 1.5;
 }
 
-.welcome-text {
-    font-weight: bold;
+.welcome-box img {
+    width: 3.5rem;
 }
 
 .actions-box {
@@ -119,7 +120,6 @@ a.sidebar-item svg {
     border-radius: 16px;
     border: none;
     color: white;
-    font-weight: bold;
 }
 
 .main-content {
